@@ -8,14 +8,17 @@
     padding-bottom: 10rem;
 
     @media (max-width: $bp-medium) {
-        padding-bottom: 8rem;
+        padding-bottom: 4rem;
     }
-
 
     .slick-arrow {
         position: absolute;
         bottom: 0;
         cursor: pointer;
+
+        @media (max-width: $bp-medium) {
+            display: none !important;
+        }
 
 
         &.slick-prev {
@@ -36,6 +39,38 @@
         &:hover {
             svg {
                 fill: #fff;
+            }
+        }
+    }
+
+    .slick-dots {
+
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        display: none !important;
+        margin-top: 2rem;
+
+        @media (max-width: $bp-medium) {
+            display: flex !important;
+        }
+
+        button {
+            font-size: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: .5rem;
+            border-radius: 50%;
+            background-color: #ddd;
+            border: none;
+            cursor: pointer;
+            transition: $transition;
+
+        }
+
+        .slick-active {
+            button {
+                background-color: $color-primary;
             }
         }
     }

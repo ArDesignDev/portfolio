@@ -101,6 +101,10 @@
                     width: 100%;
                     border: 1.5rem solid $color-dark;
                     border-radius: 2rem;
+
+                    @media (max-width: $bp-medium) {
+                        border: 1rem solid $color-dark;
+                    }
                 }
             }
         }

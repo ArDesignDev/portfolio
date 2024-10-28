@@ -1,6 +1,8 @@
 import styles from './Home.module.scss';
 import heroImage from '../../assets/images/hero-me.jpg'; 
 
+import ButtonLink from '../../components/ButtonLink/ButtonLink';
+
 import { LiaDownloadSolid, LiaLinkedinIn, LiaGlobeAmericasSolid, LiaInstagram } from "react-icons/lia";
 
 function Home() {
@@ -13,7 +15,14 @@ function Home() {
                 <p>I am a Web Developer with over 10 years of experience, specializing in front-end development and custom WordPress theme development. I am passionate about delivering high-quality solutions and continuously improving my skills to stay updated with the latest trends in web development.</p>
 
                 <div className={styles.heroLinks}>
-                    <a className={styles.heroButton} href="https://webplussolution.com/wp-content/uploads/2024/10/AljosaR-Job-CV.pdf" target='_blank' rel="noopener noreferrer" aria-label="My CV">Download CV <LiaDownloadSolid /></a>
+                    <ButtonLink
+                        href="https://webplussolution.com/wp-content/uploads/2024/10/AljosaR-Job-CV.pdf"
+                        icon={LiaDownloadSolid}
+                        className={styles.heroButton}
+                        ariaLabel="My CV"
+                        >
+                        Download CV
+                    </ButtonLink>
                     <ul className={styles.heroIcons}>
                         <li><a href="https://webplussolution.com/" target='_blank' rel="noopener noreferrer" aria-label="Visit my website"><LiaGlobeAmericasSolid /></a></li>
                         <li><a href="https:/www.linkedin.com/in/aljosarencof" target='_blank' rel="noopener noreferrer" aria-label="LinkedIn Profile"><LiaLinkedinIn /></a></li>
