@@ -8,6 +8,10 @@
         flex-wrap: wrap;
         gap: 6rem;
 
+        @media (max-width: $bp-medium) {
+            gap: 2rem;
+        }
+
         .item {
             width: calc(50% - 3rem);
             padding: 2rem 0 3rem 0;
@@ -15,6 +19,7 @@
 
             @media (max-width: $bp-medium) {
                 width: 100%;
+                text-align: center;
             }
 
             .title {

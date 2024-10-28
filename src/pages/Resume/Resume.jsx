@@ -5,6 +5,8 @@ import styles from './Resume.module.scss';
 import { LiaHtml5, LiaSass, LiaJsSquare, LiaReact, LiaPhp, LiaCss3Alt, LiaWordpress, LiaFigma, LiaGitAlt, LiaNpm } from "react-icons/lia";
 import { DiPhotoshop, DiJqueryLogo, DiVisualstudio } from "react-icons/di";
 
+import { EXPERIENCES } from '../../constants';
+
 function Resume() {
 
   const [activeSection, setActiveSection] = useState('Experiences');
@@ -59,40 +61,14 @@ function Resume() {
                 <p>I’ve gained diverse web development expertise, from front-end development to custom WordPress solutions. Here’s a look at my career journey and the skills I’ve honed along the way.</p>
                 <div className={styles.boxList}>
 
-                  <div className={styles.boxItem}>
-                      <h4 className={styles.boxSubTitle}>2020 – Present</h4>
-                      <h3 className={styles.boxTitle}>Founder / Web Developer</h3>
-                      <p className={styles.boxText}>Wordpress development, Front-end development, Maintenance and Support, Hosting </p>
-                      <h5 className={styles.boxBottomTitle}>Webplus s.p.</h5>
-                  </div>
-
-                  <div className={styles.boxItem}>
-                      <h4 className={styles.boxSubTitle}>2022 – 2023</h4>
-                      <h3 className={styles.boxTitle}>Senior Web Developer</h3>
-                      <p className={styles.boxText}>Wordpress development, Front-end development, Maintenance and Support, Hosting,  Analytics Implementation, API Integration </p>
-                      <h5 className={styles.boxBottomTitle}>Bold Group</h5>
-                  </div>
-
-                  <div className={styles.boxItem}>
-                      <h4 className={styles.boxSubTitle}>2021 – 2022</h4>
-                      <h3 className={styles.boxTitle}>Front-End React Developer</h3>
-                      <p className={styles.boxText}>React Development, Magento 2, Version Control </p>
-                      <h5 className={styles.boxBottomTitle}>Studio Moderna</h5>
-                  </div>
-
-                  <div className={styles.boxItem}>
-                      <h4 className={styles.boxSubTitle}>2017 – 2021</h4>
-                      <h3 className={styles.boxTitle}>Front-End Web Developer</h3>
-                      <p className={styles.boxText}>Front-end development, Theme Development, Magento, Version Control</p>
-                      <h5 className={styles.boxBottomTitle}>Studio Moderna</h5>
-                  </div>
-
-                  <div className={styles.boxItem}>
-                      <h4 className={styles.boxSubTitle}>2017 – 2021</h4>
-                      <h3 className={styles.boxTitle}>Internet Assistant</h3>
-                      <p className={styles.boxText}>Website Setup, HTML </p>
-                      <h5 className={styles.boxBottomTitle}>Studio Moderna</h5>
-                  </div>
+                  {EXPERIENCES.map((experience, index) => (
+                        <div className={styles.boxItem} key={index}>
+                            <h4 className={styles.boxSubTitle}>{experience.subtitle}</h4>
+                            <h3 className={styles.boxTitle}>{experience.title}</h3>
+                            <p className={styles.boxText}>{experience.description} </p>
+                            <h5 className={styles.boxBottomTitle}>{experience.company}</h5>
+                        </div>
+                  ))}
 
                 </div>
               </div>

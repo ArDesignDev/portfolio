@@ -9,10 +9,18 @@
 
     @media (max-width: $bp-medium) {
         margin-top: 8rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
     .footerInfo {
         margin-left: auto;
+
+        @media (max-width: $bp-medium) {
+            margin-left: 0;
+            padding-top: 1rem;
+        }
 
         a {
             transition: $transition;
