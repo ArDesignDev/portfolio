@@ -1,0 +1,108 @@
+@use '../../styles/variables' as *;
+
+.work {
+    padding-top: 10rem;
+
+    @media (max-width: $bp-medium) {
+        padding-top: 4rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        margin-bottom: .5rem;
+
+        @media (max-width: $bp-medium) {
+            font-size: 3rem;
+        }
+    }
+
+    .subTitle {
+        font-size: 2rem;
+        color: $color-primary;
+        margin-bottom: 2rem;
+
+        @media (max-width: $bp-medium) {
+            font-size: 1.6rem;
+        }
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .itemText {
+            width: 50%;
+            padding-right: 4rem;
+
+            @media (max-width: $bp-medium) {
+                width: 100%;
+                padding-right: 0;
+            }
+
+            .itemList {
+                display: flex;
+                list-style: none;
+                flex-wrap: wrap;
+                margin-top: 2rem;
+
+
+                li {
+                    padding: 1rem;
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+                    background-color: $color-dark;
+                    font-size: 1.3rem;
+                    border-radius: .5rem;
+                }
+            }
+
+            .link {
+                background-color: transparent;
+                border: 1px solid $color-primary;
+                padding: 1.5rem 4rem 1.5rem 4rem;
+                border-radius: 3rem;
+                transition: all 0.4s;
+                font-weight: bold;
+                position: relative;
+                display: flex;
+                text-align: center;
+                max-width: 25rem;
+                align-items: center;
+                justify-content: center;
+                transition: $transition;
+                margin-top: 2rem;
+
+                &:hover {
+                    background-color: $color-primary;
+                    color: $color-dark;
+                }
+
+                svg {
+                    margin-left: 1rem;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+
+        .itemImg {
+            width: 50%;
+
+            @media (max-width: $bp-medium) {
+                width: 100%;
+                order: -1;
+                margin-bottom: 3rem;
+            }
+
+            .imgWrapper {
+                img {
+                    width: 100%;
+                    border: 1.5rem solid $color-dark;
+                    border-radius: 2rem;
+                }
+            }
+        }
+    }
+}

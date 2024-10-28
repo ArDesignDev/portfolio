@@ -1,0 +1,19 @@
+@use '../../styles/variables' as *;
+
+.contact {
+    padding: 7rem 0 6rem;
+
+    .contactInner {
+        display: flex;
+
+        .contactForm {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+
+            @media (max-width: $bp-medium) {
+                width: 100%;
+            }
+        }
+    }
+}

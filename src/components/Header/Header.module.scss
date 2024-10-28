@@ -1,0 +1,154 @@
+@use '../../styles/variables' as *;
+
+.header {
+    padding: 3rem 0 2rem;
+    position: relative;
+
+    .headerInner {
+        display: flex;
+        align-items: center;
+
+        .headerLogo {
+            .logo {
+                font-size: 4rem;
+        
+                span {
+                    color: $color-primary;
+                }
+            }
+        }
+
+        .nav {
+            display: flex;
+            margin-left: auto;
+
+            @media (max-width: $bp-medium) {
+                display: none;
+
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: $color-dark;
+                z-index: 1;
+                height: 100vh;
+                padding-top: 10rem;
+
+                &.active {
+                    display: flex;
+                }
+            }
+
+            .navList {
+                list-style: none;
+                display: flex;
+                gap: 1rem;
+
+                @media (max-width: $bp-medium) {
+                    flex-direction: column;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                li {
+                    margin: 0 1rem;
+                    
+                    a {
+                        padding: 1.5rem 1rem;
+                        font-size: 1.8rem;
+                        transition: $transition;
+                        position: relative;
+
+                        @media (max-width: $bp-medium) {
+                            display: inline-block;
+                        }
+                        
+                        &::after {
+                            content: "";
+                            width: 0;
+                            height: 2px;
+                            background-color: $color-primary;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            transition: $transition;
+
+                                                  
+                            @media (max-width: $bp-medium) {
+                                display: none;
+                            }
+   
+                        }
+
+                        &:hover,
+                        &.active {
+                            color: $color-primary;
+
+                            &::after {
+                                width: 100%;
+
+                                @media (max-width: $bp-medium) {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        &.btn {
+                            background-color: $color-primary;
+                            padding: 1.5rem 3rem;
+                            border-radius: 3rem;
+                            margin-left: 2rem;
+                            border: none;
+
+                            @media (max-width: $bp-medium) {
+                                margin-left: 0;
+                            }
+
+                            &::after {
+                                display: none !important;
+                            }
+
+                            &:hover {
+                                color: #fff;
+                                background-color: #158f99;
+                            }
+
+                            &.active {
+                                color: #fff;
+                                background-color: #158f99;
+                            }
+                        }
+                    }
+
+                    
+                }
+
+            }
+
+            
+        }
+    }
+
+}
+  
+.menuButton {
+    display: none;
+    background-color: transparent;
+    border: none;
+
+    @media (max-width: $bp-medium) {
+        display: block;
+        width: 4rem;
+        margin-left: auto;
+    }
+}
+  
+
+  
+
+
+  
+
+  
+ 
+  

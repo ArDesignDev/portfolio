@@ -1,0 +1,259 @@
+@use '../../styles/variables' as *;
+
+.resume {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+
+    @media (max-width: $bp-medium) {
+        padding-top: 6rem;
+    }
+
+    .resumeInner {
+        display: flex;
+        gap: 5rem;
+        flex-wrap: wrap;
+
+        @media (max-width: $bp-medium) {
+            gap: 0;
+        }
+
+        .sidebar {
+            width: calc(40% - 5rem);
+            padding-right: 4rem;
+
+            @media (max-width: $bp-large) {
+                width: 100%;
+                padding-right: 0;
+            }
+
+            @media (max-width: $bp-medium) {
+                overflow-x: hidden;
+            }
+
+            .title {
+                font-size: 4rem;
+
+                @media (max-width: $bp-medium) {
+                    font-size: 3rem;
+                }
+            }
+
+            .nav {
+                margin-top: 5rem;
+                padding-bottom: 2rem;
+
+                @media (max-width: $bp-medium) {
+                    overflow-x: auto;
+                }
+
+                .navList {
+                    list-style: none;
+                    
+                    @media (max-width: $bp-large) {
+                        display: flex;
+                        
+                    }
+
+                    @media (max-width: $bp-medium) {
+                        width: 170%;
+                    }
+
+                    .navItem {
+                        width: 100%;
+                        margin-bottom: 2rem;
+                        padding: 2rem;
+                        text-align: center;
+                        background-color: #222;
+                        border-radius: 1rem;
+                        cursor: pointer;
+                        transition: $transition;
+                        font-weight: bold;
+
+                        @media (max-width: $bp-medium) {
+                            font-size: 1.3rem;
+                            margin-bottom: 1rem;
+                            margin-right: 1rem;
+                            padding: 1rem;
+                        }
+
+                        &:hover {
+                            background-color: $color-primary;
+                            color: $color-dark;
+                        }
+
+                        &.active {
+                            background-color: $color-primary !important;
+                            color: $color-dark;
+                          }
+
+    
+                    }
+
+
+                }
+            }
+        }
+
+        .content {
+            width: 60%;
+
+            @media (max-width: $bp-large) {
+                width: 100%;
+            }
+
+            @media (max-width: $bp-medium) {
+                padding-top: 4rem;
+            }
+
+            .aboutText {
+                p {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .boxList {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4rem;
+                margin-top: 4rem;
+                padding-bottom: 4rem;
+
+                @media (max-width: $bp-medium) {
+                    flex-wrap: wrap;
+                }
+
+                .boxItem {
+                    width: calc(50% - 4rem);
+                    background-color: $color-dark;
+                    padding: 3rem;
+                    border-radius: 1rem;
+
+                    @media (max-width: $bp-medium) {
+                        width: 100%;
+                        padding: 2rem;
+                    }
+
+                    .boxSubTitle {
+                        font-size: 1.4rem;
+                        color: $color-primary;
+                        font-weight: 400;
+                        margin-bottom: 1rem;
+                    }
+
+                    .boxTitle {
+                        font-size: 2rem;
+
+                        @media (max-width: $bp-medium) {
+                            font-size: 1.8rem;
+                        }
+                    }
+
+                    .boxText {
+                        font-size: 1.4rem;
+                        opacity: .7;
+                    }
+
+                    .boxBottomTitle {
+                        margin-top: 3rem;
+                        position: relative;
+                        padding-left: 2rem;
+
+                        &::before {
+                            content: "";
+                            width: 1rem;
+                            height: 1rem;
+                            border-radius: 50%;
+                            background-color: $color-primary;
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+                            transform: translateY(-50%);
+                        }
+
+                    }
+                }
+            }
+
+            .iconList {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4rem;
+                margin-top: 4rem;
+
+                @media (max-width: $bp-medium) {
+                    gap: 2rem;
+                }
+
+                @media (max-width: $bp-small) {
+                    gap: 1rem;
+                }
+
+                .iconitem {
+                    width: calc(20% - 4rem);
+                    background-color: $color-dark;
+                    display: flex;
+                    padding: 2rem 2rem;
+                    border-radius: 1rem;
+                    position: relative;
+
+                    @media (max-width: $bp-large) {
+                        width: calc(25% - 4rem);
+                    }
+
+                    @media (max-width: $bp-medium) {
+                        width: calc(25% - 2rem);
+                        padding: 1.5rem 1.5rem;
+                    }
+
+                    @media (max-width: $bp-small) {
+                        width: calc(25% - .75rem);
+                    }
+
+                    svg {
+                        width: 100%;
+                        height: 7rem;
+                        transition: $transition;
+
+                        @media (max-width: $bp-medium) {
+                            height: 5rem;
+                        }
+                    }
+
+                    .tooltip {
+                        visibility: hidden;
+                        background-color: #333;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 5px;
+                        padding: 0.5rem;
+                        position: absolute;
+                        top: -1rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        white-space: nowrap;
+                        z-index: 1;
+                        opacity: 0;
+                        transition: opacity 0.4s;
+                        pointer-events: none;
+
+                        @media (max-width: $bp-medium) {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    &:hover {
+                        .tooltip {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+
+                        svg {
+                            fill: $color-primary;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+
