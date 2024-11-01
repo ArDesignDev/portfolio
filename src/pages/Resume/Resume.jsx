@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Resume.module.scss';
 
 // iconst
 import { LiaHtml5, LiaSass, LiaJsSquare, LiaReact, LiaPhp, LiaCss3Alt, LiaWordpress, LiaFigma, LiaGitAlt, LiaNpm } from "react-icons/lia";
 import { DiPhotoshop, DiJqueryLogo, DiVisualstudio } from "react-icons/di";
-
-import { EXPERIENCES } from '../../constants';
 
 function Resume() {
 
@@ -15,6 +13,16 @@ function Resume() {
   const handleNavClick = (section) => {
     setActiveSection(section);
   };
+
+  // import data from json
+  const [experiences, setExperiences] = useState([]);
+
+  useEffect(() => {
+    fetch('/experiences.json')
+      .then((response) => response.json())
+      .then((data) => setExperiences(data))
+      .catch((error) => console.error('Error fetching projects:', error));
+  }, []);
 
 
   return (
@@ -54,6 +62,7 @@ function Resume() {
               </nav>
 
           </div>
+
           <div className={styles.content}>
             {activeSection === 'Experiences' && (
               <div className={styles.contentItem}>
@@ -61,7 +70,7 @@ function Resume() {
                 <p>I’ve gained diverse web development expertise, from front-end development to custom WordPress solutions. Here’s a look at my career journey and the skills I’ve honed along the way.</p>
                 <div className={styles.boxList}>
 
-                  {EXPERIENCES.map((experience, index) => (
+                  {experiences.map((experience, index) => (
                         <div className={styles.boxItem} key={index}>
                             <h4 className={styles.boxSubTitle}>{experience.subtitle}</h4>
                             <h3 className={styles.boxTitle}>{experience.title}</h3>

@@ -66,3 +66,15 @@
         width: 20px;
     }
 }
+
+.light {
+    .menu-icon {
+        $icon-color: $color-dark;
+
+        &::before,
+        &-middle,
+        &::after {
+            background-color: $icon-color;
+        }
+    }
+}

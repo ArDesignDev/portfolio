@@ -75,3 +75,14 @@
         }
     }
 }
+
+.light {
+    .slick-arrow {
+        &:hover {
+            svg {
+                fill: $color-primary;
+                opacity: .5;
+            }
+        }
+    }
+}

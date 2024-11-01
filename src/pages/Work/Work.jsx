@@ -1,16 +1,22 @@
+import React, { useState, useEffect } from 'react';
 import './Slick.scss';
 import styles from './Work.module.scss';
 import Slider from "react-slick";
-import { NextArrow, PrevArrow } from './CustomArrow'; // Import custom arrows
+import { NextArrow, PrevArrow } from './CustomArrow';
 import { LiaArrowRightSolid } from "react-icons/lia";
-
 import ButtonLink from '../../components/ButtonLink/ButtonLink';
 
-import { PROJECTS } from '../../constants';
-
 function Work() {
+  const [projects, setProjects] = useState([]);
 
-  var settings = {
+  useEffect(() => {
+    fetch('/projects.json')
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch((error) => console.error('Error fetching projects:', error));
+  }, []);
+
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -18,15 +24,13 @@ function Work() {
     slidesToScroll: 1,
     arrows: true,
     nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />, 
+    prevArrow: <PrevArrow />,
   };
 
   return (
     <main className={styles.work}>
-
       <Slider {...settings}>
-
-        {PROJECTS.map((project, index) => (
+        {projects.map((project, index) => (
           <div key={index}>
             <div className={styles.item}>
               <div className={styles.itemText}>
@@ -34,8 +38,8 @@ function Work() {
                 <h3 className={styles.subTitle}>{project.subtitle}</h3>
                 <p><strong>Project description: </strong>{project.description}</p>
                 <ul className={styles.itemList}>
-                  {project.technologies.map((tecnologie, index) => (
-                    <li key={index}>{tecnologie}</li>
+                  {project.technologies.map((technology, index) => (
+                    <li key={index}>{technology}</li>
                   ))}
                 </ul>
                 <ButtonLink
@@ -55,10 +59,9 @@ function Work() {
             </div>
           </div>
         ))}
-
       </Slider>
     </main>
-  )
+  );
 }
 
-export default Work
+export default Work;

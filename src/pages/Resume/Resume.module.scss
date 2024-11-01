@@ -142,6 +142,7 @@
 
                     .boxTitle {
                         font-size: 2rem;
+                        color: #fff !important;
 
                         @media (max-width: $bp-medium) {
                             font-size: 1.8rem;
@@ -151,6 +152,7 @@
                     .boxText {
                         font-size: 1.4rem;
                         opacity: .7;
+                        color: #fff !important;
                     }
 
                     .boxBottomTitle {

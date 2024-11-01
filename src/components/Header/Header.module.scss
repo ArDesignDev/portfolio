@@ -21,10 +21,12 @@
         .nav {
             display: flex;
             margin-left: auto;
+            align-items: center;
 
             @media (max-width: $bp-medium) {
                 display: none;
-
+                align-items: flex-start;
+                flex-direction: column;
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -99,6 +101,7 @@
                             border-radius: 3rem;
                             margin-left: 2rem;
                             border: none;
+                            color: #fff;
 
                             @media (max-width: $bp-medium) {
                                 margin-left: 0;
@@ -125,11 +128,63 @@
 
             }
 
+            &.light {
+                background-color: #fff;
+            }
+
             
         }
     }
 
 }
+
+.switchWrapper {
+    cursor: pointer;
+       
+    @media (max-width: $bp-medium) {
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .switch {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 2rem;
+        background-color: $color-dark;
+        border: none;
+        transition: $transition;
+ 
+        @media (max-width: $bp-medium) {
+            margin-left: 0;
+        }
+
+        &:hover {
+            background-color: #444;
+        }
+    
+        svg {
+            width: 2.2rem;
+            height: auto;
+            fill: #fff;
+        }
+    }
+
+    .switchText {
+        display: none;
+        padding-left: .5rem;
+
+        @media (max-width: $bp-medium) {
+            display: inline-block;
+        }
+    }
+}
+
+
   
 .menuButton {
     display: none;
