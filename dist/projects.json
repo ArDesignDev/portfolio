@@ -80,5 +80,48 @@
       ],
       "link": "https://passsport.com/en/"
     }
+    ,
+    {
+      "title": "Trtnik Design",
+      "subtitle": "UX/UI Designer Portfolio",
+      "image": "/images/trtnik-preview-1.jpg",
+      "description": "Trtnikdesign website is built on WordPress. A sleek, one-page portfolio showcasing the work and skills of Jure Trtnik, a UX/UI designer. The design is minimalist and elegant, with a clean layout. Website ensures optimal performance and user engagement through strategic use of advanced plugins and compliance with the latest web standards.",
+      "technologies": [
+        "WordPress",
+        "Custom WordPress theme",
+        "CSS3/SASS",
+        "HTML",
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "Gutenberg",
+        "ACF",
+        "Figma",
+        "AJAX filtering"
+      ],
+      "link": "https://trtnikdesign.com/"
+    },
+    {
+      "title": "Grou global",
+      "subtitle": "Website for BTB Agency",
+      "image": "/images/grou-preview.jpg",
+      "description": "This website is build on WordPress. It is designed for optimal performance and ease of use. This clean and fast-loading page features an engaging blog, a comprehensive Resources section filled with valuable tools and information, and a Work section that showcases our expertise and successful projects. Integrated contact forms are connected to the ActiveCampaign platform, ensuring seamless communication and follow-ups. Perfectly crafted for businesses, this page ensures a seamless user experience, making it easy to find the information you need quickly and efficiently.",
+      "technologies": [
+        "WordPress",
+        "Custom WordPress theme",
+        "CSS3/SASS",
+        "HTML",
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "Gutenberg",
+        "ACF",
+        "ActiveCampaign",
+        "Google Analytics",
+        "Meta tracking",
+        "Adobe XD"
+      ],
+      "link": "https://grouglobal.com/"
+    }
   ]
   

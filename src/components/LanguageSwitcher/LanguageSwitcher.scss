@@ -1,0 +1,17 @@
+@use '../../styles/variables' as *;
+
+
+.language-switcher button {
+    padding: .5rem;
+    margin: 0 4px;
+    background: $color-dark;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+
+    &.active {
+        background-color: $color-primary;
+        color: $color-dark
+    }
+}
