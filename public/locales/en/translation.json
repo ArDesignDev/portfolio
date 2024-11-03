@@ -1,0 +1,224 @@
+{
+    "welcome": "Welcome",
+    "heroTitle": "Web Developer",
+    "heroSubtitle": "Hello, I'm <span> Aljoša Renčof</span>",
+    "heroDescription": "I am a Web Developer with over 10 years of experience, specializing in front-end development and custom WordPress theme development. I am passionate about delivering high-quality solutions and continuously improving my skills to stay updated with the latest trends in web development.",
+    "downloadCV": "Download CV",
+    "ariaMyCV": "My CV",
+    "ariaWebsite": "Visit my website",
+    "ariaLinkedIn": "LinkedIn Profile",
+    "ariaInstagram": "Instagram Profile",
+    "resumeTitle": "Why work with me?",
+    "resumeDescription": "Delivering quality solutions with attention to detail.",
+    "experiences": "Experiences",
+    "experienceList": [
+        {
+          "subtitle": "2020 – Present",
+          "title": "Founder / Web Developer",
+          "description": "WordPress development, Front-end development, Maintenance and Support, Hosting",
+          "company": "Webplus s.p."
+        },
+        {
+          "subtitle": "2022 – 2023",
+          "title": "Senior Web Developer",
+          "description": "WordPress development, Front-end development, Maintenance and Support, Hosting, Analytics Implementation, API Integration",
+          "company": "Bold Group"
+        },
+        {
+          "subtitle": "2021 – 2022",
+          "title": "Front-End React Developer",
+          "description": "React Development, Magento 2, Version Control",
+          "company": "Studio Moderna"
+        },
+        {
+          "subtitle": "2017 – 2021",
+          "title": "Front-End Web Developer",
+          "description": "Front-end development, Theme Development, Magento, Version Control",
+          "company": "Studio Moderna"
+        },
+        {
+          "subtitle": "2017 – 2021",
+          "title": "Internet Assistant",
+          "description": "Website Setup, HTML",
+          "company": "Studio Moderna"
+        }
+    ],
+    "skills": "Skills",
+    "education": "Education",
+    "aboutMe": "About me",
+    "myExperiences": "My Experiences",
+    "experiencesDescription": "I’ve gained diverse web development expertise, from front-end development to custom WordPress solutions. Here’s a look at my career journey and the skills I’ve honed along the way.",
+    "skillsDescription": "Combining technical skills and practical experience, I bring a well-rounded approach to web development. Here are some of the key technologies and tools I work with:",
+    "educationTitle": "Education",
+    "educationDescription": "Brief overview of my official educational background.",
+    "education1Year": "2015",
+    "education1Title": "University Graduate Engineer of Logistics",
+    "education1Institution": "Faculty of Logistics",
+    "education2Year": "2008",
+    "education2Title": "High school graduate with a general matura diploma",
+    "education2Institution": "Gymnasium Litija",
+    "aboutMeTitle": "About me",
+    "aboutMeText1": "I am a web developer with over 10 years of experience, passionate about creating visually stunning and intuitive websites. With a strong background in HTML, CSS, JavaScript, and various web development frameworks, I transform complex design ideas into fully functional and responsive websites. I stay updated with the latest web development trends and technologies to craft cutting-edge solutions that provide the best user experience.",
+    "aboutMeText2": "I spent 6 years as a front-end web developer at Studio Moderna and 2 years in a marketing agency Bold as a full stack web developer. Now, I focus on freelancing, taking on new and interesting projects.",
+    "aboutMeText3": "In addition to my technical skills, I have a keen eye for design and a deep understanding of user experience principles. This enables me to create websites that are both functional and aesthetically pleasing. I take pride in my attention to detail and my ability to craft seamless and engaging digital experiences. Whether it’s a simple landing page or a complex e-commerce platform, I approach each project with dedication and enthusiasm.",
+    "aboutMeText4": "Collaboration is integral to my development process. I work closely with clients to understand their unique needs and goals, ensuring the final product is tailored to their specific requirements and exceeds their expectations. I value feedback and strive to create websites that reflect the client’s vision while incorporating best practices in web design and development.",
+    "aboutMeText5": "I look forward to working with you to bring your digital projects to life and create a website that not only meets but exceeds your expectations.",
+    "contactTitle": "Contact me",
+    "contactDescription": "Feel free to reach out for any inquiries or collaboration opportunities.",
+    "services": [
+        {
+          "title": "Front-end development",
+          "description": "I specialize in HTML, CSS/Sass, JavaScript, and libraries like jQuery and React to build websites that are both visually appealing and highly functional. Whether it's a custom CMS, WordPress, or Magento site, I focus on creating efficient, user-friendly experiences."
+        },
+        {
+          "title": "WordPress development",
+          "description": "I develop everything from custom themes to WooCommerce e-commerce solutions, prioritizing user-friendly features, elegant design, and optimized performance to enhance your website's experience."
+        },
+        {
+          "title": "Website Support",
+          "description": "I provide ongoing website support, including updates, troubleshooting, and performance optimization. Whether it's managing content, resolving technical issues, or enhancing site features."
+        },
+        {
+          "title": "Web Design",
+          "description": "I create web designs using Figma and Photoshop, focusing on delivering clean and user-friendly layouts."
+        }
+    ],
+    "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "resume": "Resume",
+        "work": "Work",
+        "contact": "Contact",
+        "darkMode": "Dark Mode",
+        "lightMode": "Light Mode"
+    },
+    "projects": [
+        {
+        "title": "Vision Dance Team",
+        "subtitle": "Website for dance club",
+        "image": "/images/vison-preview.jpg",
+        "description": "This dynamic website, built on WordPress, features a rich array of animations and striking visuals. Leveraging the GSAP (GreenSock Animation Platform) library, I implemented interactive elements that respond to user scroll actions, creating an immersive and engaging experience. The design focuses on fluid animations and responsive layout, ensuring seamless performance across devices while capturing the energetic spirit of the dance team.",
+        "technologies": [
+            "WordPress",
+            "Custom WordPress theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "GSAP",
+            "Scroll animations",
+            "Gutenberg",
+            "ACF",
+            "Figma"
+        ],
+        "link": "https://visiondance.si/"
+        },
+        {
+        "title": "Boldgroup",
+        "subtitle": "Marketing agency",
+        "image": "/images/bold-preview.jpg",
+        "description": "BoldGroup agency website is built on WordPress. The site features engaging hero animations and seamless transition effects, offering an interactive user experience. It supports both dark and light modes to cater to user preferences, enhancing accessibility and visual comfort. Website ensures optimal performance and user engagement through strategic use of advanced plugins and compliance with the latest web standards.",
+        "technologies": [
+            "WordPress",
+            "Custom WordPress theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "XD Adobe",
+            "Advanced Analytics"
+        ],
+        "link": "https://boldgroup.agency/"
+        },
+        {
+        "title": "Slovenska postelja",
+        "subtitle": "Woocommerce store",
+        "image": "/images/postelja-preview.jpg",
+        "description": "Slovenska postelja website is a Woocommerce store built on WordPress, featuring over 8,000 product variations. The site boasts customized product pages and a streamlined checkout process, enhancing the shopping experience. It supports both credit card and Leanpay payment options, ensuring secure and flexible transactions. Optimal performance and user engagement are achieved through the strategic use of advanced plugins and adherence to the latest web standards.",
+        "technologies": [
+            "WordPress",
+            "Woocommerce",
+            "Custom WordPress theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "XD Adobe",
+            "Advanced Analytics",
+            "Stripe",
+            "Klaviyo",
+            "Leanpay"
+        ],
+        "link": "https://postelja.si/"
+        },
+        {
+        "title": "PassSport",
+        "subtitle": "Website for a Sport App",
+        "image": "/images/pass-preview.jpg",
+        "description": "PassSport is a platform designed for a sports application, where my role focused on front-end development. I implemented smooth scroll animations using the GSAP (GreenSock Animation Platform) library, enhancing the user experience with dynamic, engaging visual transitions. Additionally, I developed a custom map using the MapLibre library, which displays all fitness locations interactively. This project highlights my expertise in creating responsive, visually captivating websites with a seamless user interface.",
+        "technologies": [
+            "HTML",
+            "CSS3/SASS",
+            "JavaScript",
+            "jQuery",
+            "GSAP",
+            "Scroll animations",
+            "MapLibre GL JS"
+        ],
+        "link": "https://passsport.com/en/"
+        },
+        {
+        "title": "Trtnik Design",
+        "subtitle": "UX/UI Designer Portfolio",
+        "image": "/images/trtnik-preview-1.jpg",
+        "description": "Trtnikdesign website is built on WordPress. A sleek, one-page portfolio showcasing the work and skills of Jure Trtnik, a UX/UI designer. The design is minimalist and elegant, with a clean layout. Website ensures optimal performance and user engagement through strategic use of advanced plugins and compliance with the latest web standards.",
+        "technologies": [
+            "WordPress",
+            "Custom WordPress theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "Figma",
+            "AJAX filtering"
+        ],
+        "link": "https://trtnikdesign.com/"
+        },
+        {
+        "title": "Grou global",
+        "subtitle": "Website for BTB Agency",
+        "image": "/images/grou-preview.jpg",
+        "description": "This website is build on WordPress. It is designed for optimal performance and ease of use. This clean and fast-loading page features an engaging blog, a comprehensive Resources section filled with valuable tools and information, and a Work section that showcases our expertise and successful projects. Integrated contact forms are connected to the ActiveCampaign platform, ensuring seamless communication and follow-ups. Perfectly crafted for businesses, this page ensures a seamless user experience, making it easy to find the information you need quickly and efficiently.",
+        "technologies": [
+            "WordPress",
+            "Custom WordPress theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "ActiveCampaign",
+            "Google Analytics",
+            "Meta tracking",
+            "Adobe XD"
+        ],
+        "link": "https://grouglobal.com/"
+        }
+    ],
+    "visitWebsite": "Visit website",
+    "projectDescription": "Project description"
+}
+  
+  

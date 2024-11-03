@@ -1,20 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Slick.scss';
 import styles from './Work.module.scss';
 import Slider from "react-slick";
 import { NextArrow, PrevArrow } from './CustomArrow';
 import { LiaArrowRightSolid } from "react-icons/lia";
 import ButtonLink from '../../components/ButtonLink/ButtonLink';
+import { useTranslation } from 'react-i18next';
 
 function Work() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch('/projects.json')
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error('Error fetching projects:', error));
-  }, []);
+  const { t } = useTranslation();
+  const projects = t('projects', { returnObjects: true });
 
   const settings = {
     dots: true,
@@ -36,7 +31,7 @@ function Work() {
               <div className={styles.itemText}>
                 <h2 className={styles.title}>{project.title}</h2>
                 <h3 className={styles.subTitle}>{project.subtitle}</h3>
-                <p><strong>Project description: </strong>{project.description}</p>
+                <p><strong>{t('projectDescription')}: </strong>{project.description}</p>
                 <ul className={styles.itemList}>
                   {project.technologies.map((technology, index) => (
                     <li key={index}>{technology}</li>
@@ -46,9 +41,9 @@ function Work() {
                   href={project.link}
                   icon={LiaArrowRightSolid}
                   className={styles.link}
-                  ariaLabel="Visit my website"
+                  ariaLabel={t('visitWebsite')}
                 >
-                  Visit website
+                  {t('visitWebsite')}
                 </ButtonLink>
               </div>
               <div className={styles.itemImg}>

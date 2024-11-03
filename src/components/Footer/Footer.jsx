@@ -1,4 +1,5 @@
 import styles from './Footer.module.scss';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 function Footer() {
   return (
@@ -7,9 +8,7 @@ function Footer() {
           <span>&copy;2024 AljošaRenčof</span>
       </div>
       <div className={styles.footerInfo}>
-          <span>
-            Email: <a href="mailto:arencof@gmail.com" aria-label="Send an email to arencof@gmail.com">arencof@gmail.com</a>
-          </span>
+         <LanguageSwitcher />
       </div>
       
     </footer>

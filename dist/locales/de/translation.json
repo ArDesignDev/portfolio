@@ -1,0 +1,224 @@
+{
+    "welcome": "Willkommen",
+    "heroTitle": "Webentwickler",
+    "heroSubtitle": "Hallo, ich bin <span> Aljoša Renčof</span>",
+    "heroDescription": "Ich bin ein Webentwickler mit über 10 Jahren Erfahrung, spezialisiert auf Front-End-Entwicklung und benutzerdefinierte WordPress-Themenentwicklung. Ich bin leidenschaftlich daran interessiert, hochwertige Lösungen bereitzustellen und meine Fähigkeiten kontinuierlich zu verbessern, um mit den neuesten Trends in der Webentwicklung auf dem Laufenden zu bleiben.",
+    "downloadCV": "CV herunterladen",
+    "ariaMyCV": "Mein Lebenslauf",
+    "ariaWebsite": "Meine Website besuchen",
+    "ariaLinkedIn": "LinkedIn-Profil",
+    "ariaInstagram": "Instagram-Profil",
+    "resumeTitle": "Warum mit mir arbeiten?",
+    "resumeDescription": "Qualitativ hochwertige Lösungen mit Liebe zum Detail liefern.",
+    "experiences": "Erfahrungen",
+    "experienceList": [
+        {
+        "subtitle": "2020 – Gegenwart",
+        "title": "Gründer / Webentwickler",
+        "description": "WordPress-Entwicklung, Front-End-Entwicklung, Wartung und Support, Hosting",
+        "company": "Webplus s.p."
+        },
+        {
+        "subtitle": "2022 – 2023",
+        "title": "Senior Webentwickler",
+        "description": "WordPress-Entwicklung, Front-End-Entwicklung, Wartung und Support, Hosting, Implementierung von Analysen, API-Integration",
+        "company": "Bold Group"
+        },
+        {
+        "subtitle": "2021 – 2022",
+        "title": "Front-End React Entwickler",
+        "description": "React-Entwicklung, Magento 2, Versionskontrolle",
+        "company": "Studio Moderna"
+        },
+        {
+        "subtitle": "2017 – 2021",
+        "title": "Front-End Webentwickler",
+        "description": "Front-End-Entwicklung, Theme-Entwicklung, Magento, Versionskontrolle",
+        "company": "Studio Moderna"
+        },
+        {
+        "subtitle": "2017 – 2021",
+        "title": "Internet Assistent",
+        "description": "Website-Setup, HTML",
+        "company": "Studio Moderna"
+        }
+    ],
+    "skills": "Fähigkeiten",
+    "education": "Bildung",
+    "aboutMe": "Über mich",
+    "myExperiences": "Meine Erfahrungen",
+    "experiencesDescription": "Ich habe vielfältige Erfahrungen in der Webentwicklung gesammelt, von der Front-End-Entwicklung bis hin zu benutzerdefinierten WordPress-Lösungen. Hier ist ein Überblick über meinen beruflichen Werdegang und die Fähigkeiten, die ich im Laufe der Zeit erworben habe.",
+    "skillsDescription": "Durch die Kombination technischer Fähigkeiten und praktischer Erfahrung bringe ich einen ganzheitlichen Ansatz in die Webentwicklung ein. Hier sind einige der wichtigsten Technologien und Werkzeuge, mit denen ich arbeite:",
+    "educationTitle": "Bildung",
+    "educationDescription": "Kurzer Überblick über meinen offiziellen Bildungshintergrund.",
+    "education1Year": "2015",
+    "education1Title": "Universitätsabschluss als Ingenieur für Logistik",
+    "education1Institution": "Fakultät für Logistik",
+    "education2Year": "2008",
+    "education2Title": "Abitur mit allgemeinem Matura-Abschluss",
+    "education2Institution": "Gymnasium Litija",
+    "aboutMeTitle": "Über mich",
+    "aboutMeText1": "Ich bin ein Webentwickler mit über 10 Jahren Erfahrung und leidenschaftlich daran interessiert, visuell ansprechende und intuitive Websites zu erstellen. Mit einem starken Hintergrund in HTML, CSS, JavaScript und verschiedenen Webentwicklungs-Frameworks verwandle ich komplexe Designideen in vollständig funktionale und responsive Websites. Ich bleibe mit den neuesten Trends und Technologien der Webentwicklung auf dem Laufenden, um moderne Lösungen zu entwickeln, die die beste Benutzererfahrung bieten.",
+    "aboutMeText2": "Ich habe 6 Jahre als Front-End-Webentwickler bei Studio Moderna und 2 Jahre in einer Marketingagentur Bold als Full-Stack-Webentwickler gearbeitet. Jetzt konzentriere ich mich auf Freiberuflichkeit und nehme neue und interessante Projekte an.",
+    "aboutMeText3": "Zusätzlich zu meinen technischen Fähigkeiten habe ich ein gutes Auge für Design und ein tiefes Verständnis für Benutzererfahrungsprinzipien. Dadurch bin ich in der Lage, Websites zu erstellen, die sowohl funktional als auch ästhetisch ansprechend sind. Ich lege großen Wert auf Details und meine Fähigkeit, nahtlose und ansprechende digitale Erlebnisse zu schaffen. Ob es sich um eine einfache Zielseite oder eine komplexe E-Commerce-Plattform handelt, ich gehe jedes Projekt mit Hingabe und Enthusiasmus an.",
+    "aboutMeText4": "Zusammenarbeit ist ein wesentlicher Bestandteil meines Entwicklungsprozesses. Ich arbeite eng mit Kunden zusammen, um ihre einzigartigen Bedürfnisse und Ziele zu verstehen und sicherzustellen, dass das Endprodukt auf ihre spezifischen Anforderungen zugeschnitten ist und ihre Erwartungen übertrifft. Ich schätze Feedback und bemühe mich, Websites zu erstellen, die die Vision des Kunden widerspiegeln und gleichzeitig bewährte Methoden in Design und Entwicklung integrieren.",
+    "aboutMeText5": "Ich freue mich darauf, mit Ihnen zusammenzuarbeiten, um Ihre digitalen Projekte zum Leben zu erwecken und eine Website zu erstellen, die nicht nur Ihren Erwartungen entspricht, sondern sie übertrifft.",
+    "contactTitle": "Kontaktiere mich",
+    "contactDescription": "Zögern Sie nicht, sich für Anfragen oder Kooperationsmöglichkeiten zu melden.",
+    "services": [
+        {
+        "title": "Front-End-Entwicklung",
+        "description": "Ich spezialisiere mich auf HTML, CSS/Sass, JavaScript und Bibliotheken wie jQuery und React, um Websites zu erstellen, die sowohl visuell ansprechend als auch hochfunktional sind. Ob es sich um ein benutzerdefiniertes CMS, eine WordPress- oder Magento-Site handelt, ich konzentriere mich auf die Schaffung effizienter, benutzerfreundlicher Erfahrungen."
+        },
+        {
+        "title": "WordPress-Entwicklung",
+        "description": "Ich entwickle alles, von benutzerdefinierten Themes bis hin zu WooCommerce-E-Commerce-Lösungen, wobei benutzerfreundliche Funktionen, elegantes Design und optimierte Leistung im Vordergrund stehen, um das Erlebnis Ihrer Website zu verbessern."
+        },
+        {
+        "title": "Website-Support",
+        "description": "Ich biete kontinuierlichen Website-Support, einschließlich Updates, Fehlerbehebung und Leistungsoptimierung. Ob es um die Verwaltung von Inhalten, die Lösung technischer Probleme oder die Verbesserung der Website-Funktionen geht."
+        },
+        {
+        "title": "Webdesign",
+        "description": "Ich erstelle Webdesigns mit Figma und Photoshop, wobei ich mich auf die Bereitstellung sauberer und benutzerfreundlicher Layouts konzentriere."
+        }
+    ],
+    "navigation": {
+        "home": "Startseite",
+        "services": "Dienstleistungen",
+        "resume": "Lebenslauf",
+        "work": "Arbeiten",
+        "contact": "Kontakt",
+        "darkMode": "Dunkler Modus",
+        "lightMode": "Heller Modus"
+    },
+    "projects": [
+        {
+          "title": "Vision Dance Team",
+          "subtitle": "Website für Tanzverein",
+          "image": "/images/vison-preview.jpg",
+          "description": "Diese dynamische Website, erstellt in WordPress, bietet eine Vielzahl von Animationen und beeindruckenden visuellen Effekten. Mithilfe der GSAP-Bibliothek habe ich interaktive Elemente implementiert, die auf Benutzer-Scroll-Aktionen reagieren und so ein immersives Erlebnis schaffen. Das Design konzentriert sich auf flüssige Animationen und ein responsives Layout, das eine nahtlose Leistung auf allen Geräten gewährleistet und die Energie des Tanzteams einfängt.",
+          "technologies": [
+            "WordPress",
+            "Benutzerdefiniertes WordPress-Theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "GSAP",
+            "Scroll-Animationen",
+            "Gutenberg",
+            "ACF",
+            "Figma"
+          ],
+          "link": "https://visiondance.si/"
+        },
+        {
+          "title": "Boldgroup",
+          "subtitle": "Marketing-Agentur",
+          "image": "/images/bold-preview.jpg",
+          "description": "Die Website der Agentur BoldGroup wurde in WordPress erstellt. Die Seite bietet ansprechende Helden-Animationen und nahtlose Übergangseffekte und bietet so ein interaktives Benutzererlebnis. Sie unterstützt sowohl dunkle als auch helle Modi, um den Vorlieben der Benutzer gerecht zu werden, und verbessert die Zugänglichkeit und den visuellen Komfort. Die Website stellt durch den strategischen Einsatz fortschrittlicher Plugins und die Einhaltung der neuesten Webstandards eine optimale Leistung und Benutzerbindung sicher.",
+          "technologies": [
+            "WordPress",
+            "Benutzerdefiniertes WordPress-Theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "XD Adobe",
+            "Erweiterte Analytik"
+          ],
+          "link": "https://boldgroup.agency/"
+        },
+        {
+          "title": "Slovenska postelja",
+          "subtitle": "Woocommerce-Shop",
+          "image": "/images/postelja-preview.jpg",
+          "description": "Die Website von Slovenska postelja ist ein Woocommerce-Shop, der auf WordPress basiert und über 8.000 Produktvariationen bietet. Die Seite verfügt über individuell gestaltete Produktseiten und einen optimierten Checkout-Prozess, um das Einkaufserlebnis zu verbessern. Sie unterstützt sowohl Kreditkarten- als auch Leanpay-Zahlungsoptionen und gewährleistet sichere und flexible Transaktionen. Durch den strategischen Einsatz fortschrittlicher Plugins und die Einhaltung der neuesten Webstandards wird eine optimale Leistung und Benutzerbindung erreicht.",
+          "technologies": [
+            "WordPress",
+            "Woocommerce",
+            "Benutzerdefiniertes WordPress-Theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "XD Adobe",
+            "Erweiterte Analytik",
+            "Stripe",
+            "Klaviyo",
+            "Leanpay"
+          ],
+          "link": "https://postelja.si/"
+        },
+        {
+          "title": "PassSport",
+          "subtitle": "Website für eine Sport-App",
+          "image": "/images/pass-preview.jpg",
+          "description": "PassSport ist eine Plattform, die für eine Sportanwendung entwickelt wurde, bei der sich meine Arbeit auf die Front-End-Entwicklung konzentrierte. Ich habe flüssige Scroll-Animationen mithilfe der GSAP-Bibliothek implementiert und so das Benutzererlebnis durch dynamische und ansprechende visuelle Übergänge verbessert. Zusätzlich habe ich eine benutzerdefinierte Karte mit der MapLibre-Bibliothek entwickelt, die alle Fitnessstandorte interaktiv anzeigt. Dieses Projekt unterstreicht meine Fachkenntnisse in der Erstellung reaktionsschneller und visuell ansprechender Websites mit einer nahtlosen Benutzeroberfläche.",
+          "technologies": [
+            "HTML",
+            "CSS3/SASS",
+            "JavaScript",
+            "jQuery",
+            "GSAP",
+            "Scroll-Animationen",
+            "MapLibre GL JS"
+          ],
+          "link": "https://passsport.com/en/"
+        },
+        {
+          "title": "Trtnik Design",
+          "subtitle": "Portfolio des UX/UI-Designers",
+          "image": "/images/trtnik-preview-1.jpg",
+          "description": "Die Website von Trtnikdesign wurde in WordPress erstellt. Eine elegante One-Page-Portfolio-Website, die die Arbeit und Fähigkeiten von Jure Trtnik, einem UX/UI-Designer, zeigt. Das Design ist minimalistisch und elegant mit einem klaren Layout. Die Website gewährleistet durch den strategischen Einsatz fortschrittlicher Plugins und die Einhaltung der neuesten Webstandards eine optimale Leistung und Benutzerbindung.",
+          "technologies": [
+            "WordPress",
+            "Benutzerdefiniertes WordPress-Theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "Figma",
+            "AJAX-Filterung"
+          ],
+          "link": "https://trtnikdesign.com/"
+        },
+        {
+          "title": "Grou global",
+          "subtitle": "Website für eine B2B-Agentur",
+          "image": "/images/grou-preview.jpg",
+          "description": "Diese Website wurde in WordPress erstellt und ist auf optimale Leistung und Benutzerfreundlichkeit ausgelegt. Diese saubere und schnell ladende Seite bietet einen ansprechenden Blog, einen umfassenden Ressourcenbereich mit wertvollen Tools und Informationen sowie einen Arbeitsbereich, der unsere Expertise und erfolgreichen Projekte zeigt. Integrierte Kontaktformulare sind mit der ActiveCampaign-Plattform verbunden und sorgen für eine nahtlose Kommunikation und Nachverfolgung. Perfekt für Unternehmen konzipiert, bietet diese Seite ein nahtloses Benutzererlebnis und macht es einfach, die benötigten Informationen schnell und effizient zu finden.",
+          "technologies": [
+            "WordPress",
+            "Benutzerdefiniertes WordPress-Theme",
+            "CSS3/SASS",
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "Gutenberg",
+            "ACF",
+            "ActiveCampaign",
+            "Google Analytics",
+            "Meta-Tracking",
+            "Adobe XD"
+          ],
+          "link": "https://grouglobal.com/"
+        }
+      ],
+      "visitWebsite": "Website besuchen",
+      "projectDescription": "Projektbeschreibung"
+}
+      
+  
